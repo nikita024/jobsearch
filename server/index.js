@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000'],
+    origin: ['http://localhost:5173', 'https://jobsearch-57d8.onrender.com'],
     credentials: true
 }));
 app.use(cookieParser());
