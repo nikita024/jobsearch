@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://jobsearch-57d8.onrender.com'],
+    origin: ['http://localhost:5173', 'https://nikks-jobsearch.netlify.app/'],
     credentials: true
 }));
 app.use(cookieParser());
